@@ -49,7 +49,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 ul {
@@ -272,17 +271,37 @@ a {
     }
 }
 
+.slide-content {
+    margin: 0 40px;
+}
+
+.card {
+    width: 320px;
+    border-radius: 25px;
+    background-color: #FFFF;
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
 .card-image {
     position: relative;
     height: 150px;
     width: 150px;
+    border-radius: 50%;
+    background-color: #FFFF;
 }
 
 /* ALTERAR O TAMANHO DAS IMAGENS E TALS 
 (COLOCAR TODAS EM UM TAMANHO ÚNICO) */
-.card-img {
+.card-image .card-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%; 
+    border-radius: 50%;
+    border: 4px solid rgb(111, 0, 128);
 }
