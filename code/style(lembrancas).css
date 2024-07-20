@@ -83,15 +83,10 @@ a {
   align-items: center;
 }
 
-.nav__logo {
-  color: var(--white-color);
-  font-weight: var(--font-medium);
-}
-
 .nav__logo img {
-  max-height: 15%; /* Ajusta a altura máxima para garantir responsividade */
-  max-width: 15%; /* Ajusta a largura máxima para garantir responsividade */
-  vertical-align: middle; /* Centraliza verticalmente se necessário */
+  max-height: 15%;
+  max-width: 15%;
+  vertical-align: middle;
 }
 
 .nav__close, 
