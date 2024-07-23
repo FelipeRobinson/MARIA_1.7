@@ -1,4 +1,6 @@
-# Maria Birthday
+# MARIA BIRTHDAY
+## Version: 1.7
+
 ### 06/12, seu dia, eu te amo muito e esse site é pra mostrar pra você o quão especial você é pra mim...
 
 <br>
@@ -54,3 +56,16 @@
 
 O projeto está hospedado em uma url gratis do [Vercel](https://vercel.com), onde ela se localiza nesse [endereço](https://mariabirthday-542zkd5oi-feliperobinsons-projects.vercel.app/) de hospedagem.
 - Disponível para Desktop e Mobile...
+
+<br><br>
+
+## 😍 Criador:
+### Projeto criado por Felipe (Felbs), com carinho e amor para Maria Eduarda, para presenta-lá em seu aniversário...
+
+- Como me encontrar:
+    <br>
+    <img src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Squircle-Dark.png" width="20"> [Linkedin](https://www.linkedin.com/in/feliperobinson/)
+    <br>
+    <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" width="25"> [GitHub](https://github.com/FelipeRobinson)
+    <br>
+    <img src="https://loodibee.com/wp-content/uploads/Twitter-X-Logo.png" width="20"> [Twitter](https://x.com/)
