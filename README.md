@@ -5,7 +5,7 @@
 
 <br>
 
-<table>
+<table border="0">
   <tr>
     <td><img src="./code/img/logo.png" alt="LOGO" width="200"></td>
     <td>
