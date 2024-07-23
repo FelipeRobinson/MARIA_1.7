@@ -286,6 +286,7 @@ a {
 .image-content {
     position: relative;
     row-gap: 5px;
+    padding: 25px;
 }
 
 .overlay {
