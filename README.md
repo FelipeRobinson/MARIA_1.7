@@ -36,7 +36,7 @@
 
 <br><br>
 
-## 🖌️ Layout (Desktop):
+## 🖌️ Layout (💻):
 
 - Menu de navegação:
 ![NAV_BAR](./code/img/Nav-bar.jpeg)
@@ -46,7 +46,7 @@
 
 <br><br>
 
-## 🖌️ Layout (Mobile):
+## 🖌️ Layout (📱):
 
 <br><br>
 
