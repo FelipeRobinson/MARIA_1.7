@@ -69,3 +69,8 @@ O projeto está hospedado em uma url gratis do [Vercel](https://vercel.com), ond
     <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" width="25"> [GitHub](https://github.com/FelipeRobinson)
     <br>
     <img src="https://loodibee.com/wp-content/uploads/Twitter-X-Logo.png" width="20"> [Twitter](https://x.com/)
+
+## 💜 Obrigado:
+
+- Uma honra ser seu namorado e estar ao seu lado por todo o tempo que der...
+- Eu te amo muito e é um prazer criar coisas únicas para você<3
