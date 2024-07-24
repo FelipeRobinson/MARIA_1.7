@@ -45,6 +45,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: rgb(111, 0, 128);
+  margin: 0;
 }
 
 ul {
@@ -265,4 +266,75 @@ a {
     align-items: center;
     column-gap: 3.5rem;
   }
+}
+
+.container_2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20em;
+}
+
+.painels {
+  width: 30em;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, max-content));
+  padding: 2em;
+  margin: 0 2em;
+}
+
+.painel {
+  width: 8.5em;
+  background: url(./img/LEMBRANCAS/IMG-20240531-WA0002.jpg) no-repeat center fixed;
+  background-size: cover;
+  box-shadow: -7px 0px 20px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transform: skew(5deg);
+  border: #dbdbdb solid 2px;
+}
+
+.painel:nth-child(1) {
+  height: 15em;
+  z-index: 4;
+}
+
+.painel:nth-child(2) {
+  height: 19em;
+  z-index: 3;
+}
+
+.painel:nth-child(3) {
+  height: 27em;
+  z-index: 2;
+}
+
+.painel:nth-child(4) {
+  height: 22em;
+  z-index: 1;
+}
+
+.painel:nth-child(5) {
+  height: 18em;
+}
+
+p {
+  color: rgb(111, 0, 128);
+}
+
+.container_2 h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 1150px) {
+  .container_2 {
+    
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  
 }
