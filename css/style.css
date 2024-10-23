@@ -4,9 +4,20 @@
 :root {
   --font: "Montserrat Alternates", sans-serif;
   --black-ground: #000;
+  --white-ground: #fff;
 }
 
 body {
   font-family: var(--font);
   background-color: rgb(111, 0, 128);
+}
+
+.nav__social-link {
+  color: var(--white-ground);
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 35px; 
+  padding: 0.1em;
 }

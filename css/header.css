@@ -3,10 +3,10 @@
 }
 
 .menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
+    width: 26px;
+    height: 26px;
     background-image: url("/img/hamburgue.png");
+    display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
 }

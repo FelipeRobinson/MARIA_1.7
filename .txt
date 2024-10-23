@@ -1,0 +1,21 @@
+Inicio
+Sobre você
+Sobre nós
+Diário anual
+Lembranças
+
+
+<div>
+    <a href="https://x.com/felipeamaduda" target="_blank" class="nav__social-link">
+        <i class="ri-twitter-x-line"></i>
+    </a>
+    <a href="https://www.instagram.com/feamadudinha/" target="_blank" class="nav__social-link">
+        <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https://br.pinterest.com/felipeamamaria/" target="_blank" class="nav__social-link">
+        <i class="ri-pinterest-line"></i>
+    </a>
+    <a href="https://api.whatsapp.com/send/?phone=5519991602763&text&type=phone_number&app_absent=0" target="_blank" class="nav__social-link">
+        <i class="ri-whatsapp-line"></i>
+    </a>
+</div>
