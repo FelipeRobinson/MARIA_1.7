@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap");
 @import url("./header.css");
+@import url("./banner.css");
 
 :root {
   --font: "Montserrat Alternates", sans-serif;

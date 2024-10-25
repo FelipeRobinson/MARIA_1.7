@@ -1,10 +1,13 @@
 :root {
     --black: #000;
+    --roxo: rgb(111, 0, 128);
+    --white: #fff;
+    --intermid: rgb(111, 80, 128);
 }
 
 .menu-hamburguer {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     background-image: url("/img/hamburgue.png");
     display: inline-block;
     background-repeat: no-repeat;
@@ -26,4 +29,36 @@
 
 .container__imagem {
     padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 10px;
+    background: var(--black)
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+}
+
+.lista-menu__titulo {
+    color: var(--roxo);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.lista-menu__link {
+    background: var(--white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;  
+    font-weight: 700;
 }
