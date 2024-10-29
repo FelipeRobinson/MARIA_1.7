@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+.carrosel__titulo {
+    color: rgb(111, 0, 128);
+    text-shadow: -1px -1px 1px rgb(50, 0, 70), 1px -1px 1px rgb(50, 0, 70), -1px 1px 1px rgb(50, 0, 70), 1px 1px 1px rgb(50, 0, 70);
+    background-color: var(--black-opacity);
+    font-family: "Oxanium", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1%;
+    font-size: 18px;
+    padding: 0.7em 0 0.5em 0;
+}
+

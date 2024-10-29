@@ -5,17 +5,19 @@
 
 :root {
   --font: "Montserrat Alternates", sans-serif;
-  --black-ground: #000;
-  --white-ground: #fff;
+  --black: #000;
+  --black-opacity: rgba(0, 0, 0, 0.6);
+  --white: #fff;
+  --purple: rgb(111, 0, 128);
 }
 
 body {
   font-family: var(--font);
-  background-color: rgb(111, 0, 128);
+  background-color: var(--purple);
 }
 
 .nav__social-link {
-  color: var(--white-ground);
+  color: var(--white);
   text-decoration: none;
 }
 

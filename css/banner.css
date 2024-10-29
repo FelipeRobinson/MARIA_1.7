@@ -1,5 +1,5 @@
 .banner {
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--black-opacity);
     color: var(--white);
     text-align: center;
     padding: 2.5em 2em;
