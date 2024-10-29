@@ -25,6 +25,7 @@
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .container__imagem {
@@ -34,6 +35,7 @@
 .lista-menu {
     display: none;
     position: absolute;
+    height: 430%;
     top: 110%;
     left: 10px;
     background: var(--black)
