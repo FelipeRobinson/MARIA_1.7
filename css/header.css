@@ -15,7 +15,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    height: 80px;
+    width: 100%;
 }
 
 .container {

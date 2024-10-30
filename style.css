@@ -14,6 +14,7 @@
 body {
   font-family: var(--font);
   background-color: var(--purple);
+  padding-top: 80px;
 }
 
 .nav__social-link {
