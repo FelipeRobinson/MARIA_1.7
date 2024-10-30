@@ -7,6 +7,10 @@
     background-position: center;
 }
 
+#menu:hover {
+    opacity: 0.8;
+}
+
 .cabeçalho {
     position: fixed;
     top: 0;
@@ -23,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 .container__imagem {
@@ -33,7 +38,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 430%;
+    height: 450%;
     top: 110%;
     left: 10px;
     background: var(--black);
@@ -47,6 +52,17 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+}
+
+.nav__social-link {
+    color: var(--white);
+    text-decoration: none;
+}
+  
+.icon {
+    align-items: center;
+    font-size: 25px; 
+    padding: 0.1em;
 }
 
 .lista-menu__titulo,
@@ -67,4 +83,8 @@
     background-clip: text;
     text-transform: uppercase;  
     font-weight: 700;
+}
+
+.lista-menu__link:hover, .nav__social-link:hover {
+    opacity: 0.8;
 }
