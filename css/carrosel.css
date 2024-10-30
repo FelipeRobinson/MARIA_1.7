@@ -49,6 +49,7 @@
     transform: translateX(-200%) scale(0.7);
   }
 }
+
 @keyframes carousel-animate {
   0% {
     visibility: hidden;
@@ -118,13 +119,8 @@
   padding-block-end: max(24px, calc(29px + var(--font-size-md)));
   perspective: 100px;
   width: 100%;
-}
-
-@media (max-width: 568px) {
-  .carousel {
-    -webkit-padding-after: 52px;
-            padding-block-end: 52px;
-  }
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .carousel__wrapper {
@@ -143,12 +139,6 @@
   will-change: transform, opacity;
   -webkit-animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
           animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
-}
-
-@media (max-width: 568px) {
-  .carousel .item {
-    margin-inline: calc(var(--container-padding-horizontal) + 1px);
-  }
 }
 
 .carousel .item:nth-child(1) {
@@ -185,6 +175,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  max-height: auto;
 }
 
 .instagram {
@@ -275,4 +266,33 @@
 .instagram__icon--message {
   -webkit-margin-before: 3px;
           margin-block-start: 3px;
+}
+
+/* RESPOSIVIDADE */
+@media (max-width: 768px) {
+  .carrosel__titulo {
+    font-size: 16px; /* ajuste o tamanho da fonte */
+  }
+
+  .instagram__media .img {
+    height: 100%; /* ajuste a altura da imagem para auto */
+  }
+
+  .instagram {
+    padding: 0 10px; /* ajuste o padding para dispositivos menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .carrosel__titulo {
+    font-size: 14px; /* ajuste ainda mais o tamanho da fonte */
+  }
+
+  .instagram__buttons {
+    flex-direction: column; /* empilha os botões em telas menores */
+  }
+
+  .instagram__media .img {
+    height: 100%; /* ajuste a altura da imagem para auto */
+  }
 }
