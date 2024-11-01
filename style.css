@@ -16,3 +16,7 @@ body {
   background-color: var(--purple);
   padding-top: 80px;
 }
+
+a {
+  text-decoration: none;
+}
