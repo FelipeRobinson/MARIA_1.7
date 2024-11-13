@@ -2,12 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 :root {
-  --light: 0;
-  --light: 0;
   --max-width-post: 420px;
-  --primary: hsl(calc(64 + 220 * var(--light)),calc(77% - 7% * var(--light)),calc(79% - 56% * var(--light)));
-  --bg: hsl(calc(284 - 220 * var(--light)),calc(70% + 7% * var(--light)),calc(23% + 56% * var(--light)));
-  --text-primary: hsl(calc(60 * var(--light)),calc(19% * var(--light)),calc(97% - 89% * var(--light)));
   --font-size-sm: clamp(0.7rem, 0.91vw + 0.47rem, 1.2rem);
   --font-size-base: clamp(0.88rem, 1.14vw + 0.59rem, 1.5rem);
   --font-size-md: clamp(1.09rem, 1.42vw + 0.74rem, 1.88rem);
@@ -49,6 +44,7 @@
     transform: translateX(-200%) scale(0.7);
   }
 }
+
 @keyframes carousel-animate {
   0% {
     visibility: hidden;
@@ -82,14 +78,9 @@
   }
 }
 
-@supports (height: 100dvh) {
-  body {
-    height: 100dvh;
-  }
-}
-
-h1, h3, h4, h5, h6 {
-  margin: 0;
+#title__accont {
+  color: white;
+  font-weight: 500;
 }
 
 .conteiner {
@@ -123,13 +114,8 @@ h1, h3, h4, h5, h6 {
   padding-block-end: max(24px, calc(29px + var(--font-size-md)));
   perspective: 100px;
   width: 100%;
-}
-
-@media (max-width: 568px) {
-  .carousel {
-    -webkit-padding-after: 52px;
-            padding-block-end: 52px;
-  }
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .carousel__wrapper {
@@ -148,12 +134,6 @@ h1, h3, h4, h5, h6 {
   will-change: transform, opacity;
   -webkit-animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
           animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
-}
-
-@media (max-width: 568px) {
-  .carousel .item {
-    margin-inline: calc(var(--container-padding-horizontal) + 1px);
-  }
 }
 
 .carousel .item:nth-child(1) {
@@ -190,14 +170,14 @@ h1, h3, h4, h5, h6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  max-height: auto;
+  border-radius: 20px;
 }
 
 .instagram {
   --pading-horizontal: 16px;
-  --border: 1px solid;
   max-width: var(--max-width-post);
   width: 100%;
-  border: var(--border);
   border-radius: 20px;
 }
 
@@ -257,6 +237,7 @@ h1, h3, h4, h5, h6 {
   font-size: var(--font-size-md);
   min-width: 24px;
   min-height: 24px;
+  fill: white;
 }
 
 .instagram__icon:hover {
@@ -264,11 +245,17 @@ h1, h3, h4, h5, h6 {
 }
 
 .instagram__icon path {
-  stroke: var(--primary);
-  stroke-linejoin: round;
+  fill: none;
+  stroke: white;
 }
 
 .instagram__icon--comment path {
+  stroke-width: 2;
+}
+.instagram__icon--message path {
+  stroke-width: 2;
+}
+.instagram__icon--saved path {
   stroke-width: 2;
 }
 
@@ -277,10 +264,23 @@ h1, h3, h4, h5, h6 {
           margin-block-start: 3px;
 }
 
-.instagram__icon--message path {
-  stroke-width: 2;
+/* RESPOSIVIDADE */
+@media (max-width: 768px) {
+  .carousel__wrapper {
+    height: 60vh;
+  }
+  .carousel .item {
+    max-width: 95vw;
+    height: 100%;
+  }
 }
 
-.instagram__icon--saved path {
-  stroke-width: 2;
+@media (max-width: 480px) {
+  .carousel__wrapper {
+    height: 60vh;
+  }
+  .carousel .item {
+    max-width: 95vw;
+    height: 100%;
+  }
 }

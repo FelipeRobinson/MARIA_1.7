@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MARIA BIRTHDAY</title>
+  <title>MARIA 1.7</title>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="img/logo.png" type="icon">
 </head>
 <body>
+  <!-- NAVBAR -->
   <header class="cabeçalho">
     <div class="container">
       <input type="checkbox" id="menu" class="container__botao" />
       <label for="menu">
-        <img class="menu-hamburguer container__imagem" src="./img/hamburgue.png">
+        <img class="menu-hamburguer container__imagem" id="menu" src="./img/hamburgue.png">
       </label>
       <ul class="lista-menu">
         <li class="lista-menu__titulo">CATEGORIAS</li>
@@ -48,11 +49,13 @@
           <a href="https://api.whatsapp.com/send/?phone=5519991602763&text&type=phone_number&app_absent=0" target="_blank" class="nav__social-link">
               <i class="ri-whatsapp-line icon"></i>
           </a>
-      </div>
+        </div>
       </ul>
       <img src="./img/logo.png" width="50px" alt="logo" class="container__imagem">
     </div>
   </header>
+
+  <!-- 1º SESSÃO (BANNER) -->
   <section class="banner">
     <h2 class="banner__titulo">Feliz Aniversário Meu Amor!</h2>
     <p class="banner__texto">Eu estou sempre ao seu lado, nunca se esqueça!</p>
@@ -72,11 +75,13 @@
           <div class="item" id="slide-6"><img src="./img/LEMBRANCAS/IMG-20240606-WA0155.jpg" alt="" width="418" height="418"/></div>
         </div>
       </aside>
+
+      <!-- CARROSSEL (INSTAGRAM) -->
       <article class="instagram">
         <header class="instagram__header">
-          <figure><img src="https://assets.codepen.io/108082/jake-dog.png" alt="Jake Dog" width="42" height="42"/>
+          <figure><img src="./img/logo_mideas.jpg" alt="Logo Insta" width="50" height="50"/>
             <figcaption>
-              <h4>FeamaDudinha</h4>
+              <a href="https://www.instagram.com/feamadudinha/"><h4 id="title__accont">FeamaDudinha</h4></a>
             </figcaption>
           </figure>
         </header>
@@ -104,6 +109,16 @@
       </article>
     </div>
   </section>
+  
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p>&copy; 2024. Todos os direitos reservados para o amor da sua vida.</p>
+    <p>
+        <a href="#sobre">Sobre</a> |
+        <a href="./pages/contatos.html">Contato</a> |
+        <a href="#privacidade">Política de Privacidade</a>
+    </p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/carrousel.js"></script>
